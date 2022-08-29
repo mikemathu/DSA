@@ -1,0 +1,15 @@
+C:\C#\repos\DSA\obj\Debug\net6.0\DSA.csproj.AssemblyReference.cache
+C:\C#\repos\DSA\obj\Debug\net6.0\DSA.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\repos\DSA\obj\Debug\net6.0\DSA.AssemblyInfoInputs.cache
+C:\C#\repos\DSA\obj\Debug\net6.0\DSA.AssemblyInfo.cs
+C:\C#\repos\DSA\obj\Debug\net6.0\DSA.csproj.CoreCompileInputs.cache
+C:\C#\repos\DSA\bin\Debug\net6.0\DSA.exe
+C:\C#\repos\DSA\bin\Debug\net6.0\DSA.deps.json
+C:\C#\repos\DSA\bin\Debug\net6.0\DSA.runtimeconfig.json
+C:\C#\repos\DSA\bin\Debug\net6.0\DSA.dll
+C:\C#\repos\DSA\bin\Debug\net6.0\DSA.pdb
+C:\C#\repos\DSA\obj\Debug\net6.0\DSA.dll
+C:\C#\repos\DSA\obj\Debug\net6.0\refint\DSA.dll
+C:\C#\repos\DSA\obj\Debug\net6.0\DSA.pdb
+C:\C#\repos\DSA\obj\Debug\net6.0\DSA.genruntimeconfig.cache
+C:\C#\repos\DSA\obj\Debug\net6.0\ref\DSA.dll
