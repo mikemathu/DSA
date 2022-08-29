@@ -93,7 +93,7 @@
                 byte*/
 
             int i = 123;
-            long l = 123;
+            int l = 123;
             // Object o = (Object)i;
             // Object o2 = (Object)l;
 
