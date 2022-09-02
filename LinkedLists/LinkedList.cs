@@ -1,4 +1,4 @@
-﻿namespace LinkedList
+﻿namespace LinkedLists
 {
     public class LinkedList
     {
@@ -7,6 +7,7 @@
             public Node next;
             public Object data;
         }
+
         Node head;
         Node tail;
         public void printAllNodes()
@@ -33,5 +34,26 @@
             }
             toAdd.data = data;
         }
+
+        public void AddLast(Object data)
+        {
+
+
+            Node toAdd = new Node();
+
+            if (tail == null && head == null) //empty list
+            {
+                head = toAdd;
+                tail = toAdd;
+
+            }
+            else
+            {
+                tail.next = toAdd;
+                tail = toAdd;
+            }
+            toAdd.data = data;
+        }
+
     }
  }
