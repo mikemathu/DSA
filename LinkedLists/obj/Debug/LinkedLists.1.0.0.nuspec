@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>LinkedLists</id>
+    <version>1.0.0</version>
+    <authors>LinkedLists</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\C#\repos\DSA\LinkedLists\bin\Debug\net6.0\LinkedLists.runtimeconfig.json" target="lib\net6.0\LinkedLists.runtimeconfig.json" />
+    <file src="C:\C#\repos\DSA\LinkedLists\bin\Debug\net6.0\LinkedLists.dll" target="lib\net6.0\LinkedLists.dll" />
+  </files>
+</package>
