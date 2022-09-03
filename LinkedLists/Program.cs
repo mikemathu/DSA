@@ -13,27 +13,43 @@
               myList1.printAllNodes();*/
 
             //ADDLAST
-            Console.WriteLine();
+      /*      Console.WriteLine();
             Console.WriteLine("Add Last:");
             LinkedList myList2 = new LinkedList();
-            myList2.addLast("Item 1 is string: " + "Hello"); //string
+            myList2.addLast("Item 1 is string: " + "mike"); //string
             myList2.addLast("Item 2 is boolean: " + true); //boolean
-           // myList2.addLast("Item 3 is integer: " + 3);
-            myList2.printAllNodes();
+            myList2.addLast("Item 3 is integer: " + 3);
+            myList2.printAllNodes();*/
 
             //REMOVEFIRST
-         /*   Console.WriteLine();
-            Console.WriteLine("Remove First:");
-            LinkedList myList3 = new LinkedList();
-            myList2.removeFirst();
-            myList3.printAllNodes();*/
+            /*   Console.WriteLine();
+               Console.WriteLine("Remove First:");
+               LinkedList myList3 = new LinkedList();
+               myList2.removeFirst();
+               myList3.printAllNodes();*/
 
             //REMOVELAST
+            /*        Console.WriteLine();
+                    Console.WriteLine("Remove Last:");
+                    LinkedList myList4 = new LinkedList();
+                    myList2.removeLast();
+                    myList4.printAllNodes();*/
+
+            //REMOVE
             Console.WriteLine();
-            Console.WriteLine("Remove Last:");
-            LinkedList myList4 = new LinkedList();
-            myList2.removeLast();
-            myList4.printAllNodes();
+            Console.WriteLine("Before Remove :");
+            LinkedList myList5 = new LinkedList();
+            myList5.addLast("Item 1 is string: " + "mike"); //string
+            myList5.addLast("Item 2 is boolean: " + true); //boolean
+            myList5.addLast("Item 3 is integer: " + 3);
+            myList5.printAllNodes();
+
+            Console.WriteLine();
+            Console.WriteLine("After Remove :");
+            myList5.remove("Item 2 is boolean: " + true);
+            myList5.printAllNodes();
+
+
 
         }
     }   

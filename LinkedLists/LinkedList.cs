@@ -84,6 +84,7 @@
                 currentSize--;
                 Console.WriteLine ( tmp);
             }
+
         }
 
         public void removeLast()
@@ -111,5 +112,31 @@
             currentSize--;
             Console.WriteLine(current.data);
         }
+
+        public void remove(Object data)
+        {
+            Node current = head;
+            Node previous = null;
+
+            while (current != null)
+            {
+                if((( IComparable)data ).
+                    CompareTo(current.data) == 0)
+                {
+                    if (current == head)
+                        removeFirst();
+                    /*if (current == tail) //not important
+                        removeLast();*/
+                    currentSize--;
+                    previous.next = current.next;
+                    Console.WriteLine(current.data);
+                }
+                previous = current;
+                current = current.next;
+            }
+            Console.WriteLine("not found ");
+
+        }
+
     }
  }
