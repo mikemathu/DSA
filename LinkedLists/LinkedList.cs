@@ -22,13 +22,13 @@
                 
             }
         }
-   /*     public void AddFirst(Object data)
+      /*  public void addFirst(Object data)
         {
             Node newNode = new Node(); //1. Create new node
-            if (tail == null && head == null) //empty list
+            if (tail == null && head == null) //First Boundry condition i.e empty list
             {
                 head = newNode;
-                tail = newNode;
+                tail = newNode; //update a tail pointer if we have an empty list
                 currentSize++;
 
             }
@@ -42,25 +42,74 @@
             newNode.data = data;
         }*/
 
-       /* public void AddLast(Object data)
+        public void addLast(Object data)
         {
-
 
             Node newNode = new Node();
 
-            if (tail == null && head == null) //empty list
+            if (tail == null && head == null) //First boundary condition, empty list
             {
                 head = newNode;
                 tail = newNode;
+                currentSize++;
 
             }
             else
             {
                 tail.next = newNode;
                 tail = newNode;
+                currentSize++;
             }
             newNode.data = data;
-        }*/
+        }
 
+        public void removeFirst()
+        {
+            if(head == null) //Empty list
+            {
+                Console.WriteLine("nulll");
+            }
+
+            Object tmp = head.data;
+
+            if(head == tail) //signle element
+            {
+                head = null;
+                tail = null;
+                Console.WriteLine("sinlge element");
+            }
+            else
+            {
+                head = head.next;
+                currentSize--;
+                Console.WriteLine ( tmp);
+            }
+        }
+
+        public void removeLast()
+        {
+            if (head == null) //Empty list
+            {
+                Console.WriteLine("null item");
+            }
+
+            if (head == tail) //signle element
+            {
+                 removeFirst();
+            }
+
+            Node current = head;
+            Node previous = null;
+
+            while(current != tail) //brings O(n) complexity
+            {
+                previous = current;
+                current = current.next;
+            }
+            previous.next = null;
+            tail = previous;
+            currentSize--;
+            Console.WriteLine(current.data);
+        }
     }
  }
