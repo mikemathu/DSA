@@ -159,5 +159,12 @@
                 Console.WriteLine("null");
             Console.WriteLine(head.data);
         }
+
+        public void peekLast()
+        {
+            if(tail == null)
+                Console.WriteLine("null");
+            Console.WriteLine(tail.data);
+        }
     }
  }

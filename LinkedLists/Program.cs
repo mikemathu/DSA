@@ -50,30 +50,43 @@
                myList5.printAllNodes();*/
 
             //CONTAIN
-         /*   Console.WriteLine();
-            Console.WriteLine("Add Last :");
-            LinkedList myList6 = new LinkedList();
-            myList6.addLast("Item 1 is string: " + "mike"); //string
-            myList6.addLast("Item 2 is boolean: " + true); //boolean
-            myList6.addLast("Item 3 is integer: " + 3); //integer
+            /*   Console.WriteLine();
+               Console.WriteLine("Add Last :");
+               LinkedList myList6 = new LinkedList();
+               myList6.addLast("Item 1 is string: " + "mike"); //string
+               myList6.addLast("Item 2 is boolean: " + true); //boolean
+               myList6.addLast("Item 3 is integer: " + 3); //integer
 
-            Console.WriteLine();
-            Console.WriteLine("Contain :");
-            myList6.contain("Item 2 is boolean: ");*/
+               Console.WriteLine();
+               Console.WriteLine("Contain :");
+               myList6.contain("Item 2 is boolean: ");*/
+
+            /*   //PEEKLAST
+               Console.WriteLine();
+               Console.WriteLine("Add Last :");
+               LinkedList myList7 = new LinkedList();
+               myList7.addLast("Item 2 is boolean: " + true); //boolean
+               myList7.addLast("Item 1 is string: " + "mike"); //string            
+               myList7.addLast("Item 3 is integer: " + 3); //integer
+               myList7.printAllNodes();
+
+                Console.WriteLine();
+               Console.WriteLine("Peek First :");
+               myList7.peekFirst();*/
+
 
             //PEEKLAST
             Console.WriteLine();
             Console.WriteLine("Add Last :");
-            LinkedList myList7 = new LinkedList();
-            myList7.addLast("Item 2 is boolean: " + true); //boolean
-            myList7.addLast("Item 1 is string: " + "mike"); //string            
-            myList7.addLast("Item 3 is integer: " + 3); //integer
-            myList7.printAllNodes();
+            LinkedList myList8 = new LinkedList();
+            myList8.addLast("Item 2 is boolean: " + true); //boolean                
+            myList8.addLast("Item 3 is integer: " + 3); //integer
+            myList8.addLast("Item 1 is string: " + "mike"); //string     
+            myList8.printAllNodes();
 
-             Console.WriteLine();
-            Console.WriteLine("Peek First :");
-            myList7.peekFirst();
-
+            Console.WriteLine();
+            Console.WriteLine("Peek Last :");
+            myList8.peekLast();
 
 
         }
