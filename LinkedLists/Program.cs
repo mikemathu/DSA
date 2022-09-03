@@ -13,12 +13,12 @@
             myList1.printAllNodes();
 
             //ADDLAST
-            Console.WriteLine("Add Last:");
+   /*         Console.WriteLine("Add Last:");
             LinkedList myList2 = new LinkedList();
             myList2.AddLast("Item 1 is string: " + "Hello"); //string
             myList2.AddLast("Item 2 is boolean: " + true); //boolean
             myList2.AddLast("Item 3 is integer: " + 3);
-            myList2.printAllNodes();
+            myList2.printAllNodes();*/
 
         }
     }   
