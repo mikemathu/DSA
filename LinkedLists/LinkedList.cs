@@ -151,8 +151,13 @@
                 current = current.next;
             }
             Console.WriteLine(false + "its not there");
+        }
 
-
+        public void peekFirst()
+        {
+            if (head == null)
+                Console.WriteLine("null");
+            Console.WriteLine(head.data);
         }
     }
  }
