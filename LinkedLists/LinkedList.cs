@@ -120,7 +120,7 @@
 
             while (current != null)
             {
-                if((( IComparable)data ).
+                if((( IComparable)data).
                     CompareTo(current.data) == 0)
                 {
                     if (current == head)
@@ -135,8 +135,24 @@
                 current = current.next;
             }
             Console.WriteLine("not found ");
-
         }
 
+        public void contain(Object data) //aslo called has()/find() method
+        {
+            Node current = head;
+
+            while (current != null)
+            {
+                if (((IComparable)data).
+                    CompareTo(current.data) == 0)
+                {
+                    Console.WriteLine(true + " found");
+                }
+                current = current.next;
+            }
+            Console.WriteLine(false + "its not there");
+
+
+        }
     }
  }

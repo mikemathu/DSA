@@ -13,13 +13,13 @@
               myList1.printAllNodes();*/
 
             //ADDLAST
-      /*      Console.WriteLine();
-            Console.WriteLine("Add Last:");
-            LinkedList myList2 = new LinkedList();
-            myList2.addLast("Item 1 is string: " + "mike"); //string
-            myList2.addLast("Item 2 is boolean: " + true); //boolean
-            myList2.addLast("Item 3 is integer: " + 3);
-            myList2.printAllNodes();*/
+            /*      Console.WriteLine();
+                  Console.WriteLine("Add Last:");
+                  LinkedList myList2 = new LinkedList();
+                  myList2.addLast("Item 1 is string: " + "mike"); //string
+                  myList2.addLast("Item 2 is boolean: " + true); //boolean
+                  myList2.addLast("Item 3 is integer: " + 3);
+                  myList2.printAllNodes();*/
 
             //REMOVEFIRST
             /*   Console.WriteLine();
@@ -36,19 +36,31 @@
                     myList4.printAllNodes();*/
 
             //REMOVE
+            /*   Console.WriteLine();
+               Console.WriteLine("Before Remove :");
+               LinkedList myList5 = new LinkedList();
+               myList5.addLast("Item 1 is string: " + "mike"); //string
+               myList5.addLast("Item 2 is boolean: " + true); //boolean
+               myList5.addLast("Item 3 is integer: " + 3); //integer
+               myList5.printAllNodes();
+
+               Console.WriteLine();
+               Console.WriteLine("After Remove :");
+               myList5.remove("Item 2 is boolean: " + true);
+               myList5.printAllNodes();*/
+
+            //CONTAIN
             Console.WriteLine();
             Console.WriteLine("Before Remove :");
-            LinkedList myList5 = new LinkedList();
-            myList5.addLast("Item 1 is string: " + "mike"); //string
-            myList5.addLast("Item 2 is boolean: " + true); //boolean
-            myList5.addLast("Item 3 is integer: " + 3);
-            myList5.printAllNodes();
+            LinkedList myList6 = new LinkedList();
+            myList6.addLast("Item 1 is string: " + "mike"); //string
+            myList6.addLast("Item 2 is boolean: " + true); //boolean
+            myList6.addLast("Item 3 is integer: " + 3); //integer
 
             Console.WriteLine();
-            Console.WriteLine("After Remove :");
-            myList5.remove("Item 2 is boolean: " + true);
-            myList5.printAllNodes();
-
+            Console.WriteLine("Contain :");
+            myList6.contain("Item 2 is boolean: " );
+           
 
 
         }
