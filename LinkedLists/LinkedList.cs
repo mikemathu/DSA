@@ -22,7 +22,7 @@
                 
             }
         }
-      /*  public void addFirst(Object data)
+        public void addFirst(Object data)
         {
             Node newNode = new Node(); //1. Create new node
             if (tail == null && head == null) //First Boundry condition i.e empty list
@@ -40,7 +40,7 @@
 
             }
             newNode.data = data;
-        }*/
+        }
 
         public void addLast(Object data)
         {
@@ -82,11 +82,11 @@
             {
                 head = head.next;
                 currentSize--;
-                Console.WriteLine ( tmp);
+                //Console.WriteLine ( tmp);
             }
 
         }
-
+        
         public void removeLast()
         {
             if (head == null) //Empty list
@@ -110,7 +110,7 @@
             previous.next = null;
             tail = previous;
             currentSize--;
-            Console.WriteLine(current.data);
+            //Console.WriteLine(current.data);
         }
 
         public void remove(Object data)
@@ -153,6 +153,44 @@
             Console.WriteLine(false + "its not there");
         }
 
+        //Containt2
+        public void contain2(Object data)
+        {
+            if (head == null)
+                Console.WriteLine("null");
+            Node current = head;
+            Node previous = null;
+            if(head.next == null)
+            {
+                Object currentData = current.data;
+               if(currentData.Equals(data))
+                {                    
+                    Console.WriteLine("One "+ data);
+                    return;
+                }
+                else
+                {
+                   Console.WriteLine("Not Found One");
+                    return;
+                }
+               
+            } 
+            while(current != null)
+            {
+                if (current.data.Equals(data))
+                {
+                    Console.WriteLine("In a while loop " + data);
+                    return;
+                }                
+                previous = current;
+                current = current.next;
+                
+            }
+            Console.WriteLine("In a while loop NOT FOUND");
+
+
+        }
+
         public void peekFirst()
         {
             if (head == null)
@@ -166,5 +204,8 @@
                 Console.WriteLine("null");
             Console.WriteLine(tail.data);
         }
+
+       //LEETCODE
+
     }
  }

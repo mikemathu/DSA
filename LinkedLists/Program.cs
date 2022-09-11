@@ -50,16 +50,16 @@
                myList5.printAllNodes();*/
 
             //CONTAIN
-            /*   Console.WriteLine();
-               Console.WriteLine("Add Last :");
-               LinkedList myList6 = new LinkedList();
-               myList6.addLast("Item 1 is string: " + "mike"); //string
-               myList6.addLast("Item 2 is boolean: " + true); //boolean
-               myList6.addLast("Item 3 is integer: " + 3); //integer
+         /*   Console.WriteLine();
+            Console.WriteLine("Add Last :");
+            LinkedList myList6 = new LinkedList();
+            myList6.addLast(1); //string
+            myList6.addLast(2); //boolean
+            myList6.addLast(3); //integer
 
-               Console.WriteLine();
-               Console.WriteLine("Contain :");
-               myList6.contain("Item 2 is boolean: ");*/
+            Console.WriteLine();
+            Console.WriteLine("Contain :");
+            myList6.contain2(1);*/
 
             /*   //PEEKLAST
                Console.WriteLine();
@@ -76,17 +76,50 @@
 
 
             //PEEKLAST
-            Console.WriteLine();
-            Console.WriteLine("Add Last :");
-            LinkedList myList8 = new LinkedList();
-            myList8.addLast("Item 2 is boolean: " + true); //boolean                
-            myList8.addLast("Item 3 is integer: " + 3); //integer
-            myList8.addLast("Item 1 is string: " + "mike"); //string     
-            myList8.printAllNodes();
+            /* Console.WriteLine();
+             Console.WriteLine("Add Last :");
+             LinkedList myList8 = new LinkedList();
+             myList8.addLast("Item 2 is boolean: " + true); //boolean                
+             myList8.addLast("Item 3 is integer: " + 3); //integer
+             myList8.addLast("Item 1 is string: " + "mike"); //string     
+             myList8.printAllNodes();
 
-            Console.WriteLine();
-            Console.WriteLine("Peek Last :");
-            myList8.peekLast();
+             Console.WriteLine();
+             Console.WriteLine("Peek Last :");
+             myList8.peekLast();*/
+
+
+            //LOOP ITERATION
+            /* LinkedList list = new LinkedList();
+             int n = 10;
+
+             Console.WriteLine();
+             Console.WriteLine("Add First :");
+             for (int i = 0; i < n; i++)
+             {
+                 list.addFirst(i);
+             }*/
+
+            //list.addLast(99);
+            //list.addFirst(88);
+            //list.removeFirst();
+            //list.removeLast();
+            //list.remove(4);
+            //list.contain(4);
+
+            //list.printAllNodes();
+
+            /*Console.WriteLine();
+            Console.WriteLine("Add First :");
+            int m = 10;
+            for (int j = 0; j < m; j++)
+            {
+                list.addLast(j);
+            }
+            list.printAllNodes();*/
+
+
+
 
 
         }
