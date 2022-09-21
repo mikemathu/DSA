@@ -137,6 +137,30 @@
             Console.WriteLine("not found ");
         }
 
+        public void remove2(Object data)
+        {
+            if(head == null)
+                Console.WriteLine("Head is null");
+            Node current = head;
+            Node previous = null;
+            while(current != null)
+            {
+               
+                if (current.data.Equals(data))
+                {
+                    Object tmp = current.data;                
+                   
+                    previous.next = current.next;
+                   
+                }
+                previous = current;
+                current = current.next;
+            }
+            Console.WriteLine("Loop complete item not found");
+
+
+        }
+
         public void contain(Object data) //aslo called has()/find() method
         {
             Node current = head;

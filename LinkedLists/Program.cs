@@ -36,30 +36,30 @@
                     myList4.printAllNodes();*/
 
             //REMOVE
-            /*   Console.WriteLine();
-               Console.WriteLine("Before Remove :");
-               LinkedList myList5 = new LinkedList();
-               myList5.addLast("Item 1 is string: " + "mike"); //string
-               myList5.addLast("Item 2 is boolean: " + true); //boolean
-               myList5.addLast("Item 3 is integer: " + 3); //integer
-               myList5.printAllNodes();
+            /*      Console.WriteLine();
+                  Console.WriteLine("Before Remove :");
+                  LinkedList myList5 = new LinkedList();
+                  myList5.addLast("Hi there");
+                  myList5.addLast(2);
+                  myList5.addLast(3);
+                  myList5.printAllNodes();
 
-               Console.WriteLine();
-               Console.WriteLine("After Remove :");
-               myList5.remove("Item 2 is boolean: " + true);
-               myList5.printAllNodes();*/
+                  Console.WriteLine();
+                  Console.WriteLine("After Remove :");
+                  myList5.remove2(3);
+                  myList5.printAllNodes();*/
 
             //CONTAIN
-         /*   Console.WriteLine();
-            Console.WriteLine("Add Last :");
-            LinkedList myList6 = new LinkedList();
-            myList6.addLast(1); //string
-            myList6.addLast(2); //boolean
-            myList6.addLast(3); //integer
+            /* Console.WriteLine();
+             Console.WriteLine("Add Last :");
+             LinkedList myList6 = new LinkedList();
+             myList6.addLast(1); //string
+             myList6.addLast(2); //boolean
+             myList6.addLast("Hi there"); //integer
 
-            Console.WriteLine();
-            Console.WriteLine("Contain :");
-            myList6.contain2(1);*/
+             Console.WriteLine();
+             Console.WriteLine("Contain :");
+             myList6.contain2("Hi There");*/
 
             /*   //PEEKLAST
                Console.WriteLine();
@@ -117,6 +117,46 @@
                 list.addLast(j);
             }
             list.printAllNodes();*/
+
+
+            //LINKEDLIST2
+            //int[] head = { 1, 2, 6, 4, 5, 6 };
+            //Solution.RemoveElements(head, 6);
+
+            /* Solution s = new Solution();
+             s.RemoveElements();*/
+
+            //LINKEDLIST3
+            //ADDLAST
+           /* Console.WriteLine();
+            Console.WriteLine("Add Item:");
+            //LinkedList3 myList2 = new LinkedList3();
+            int[] arr = { 1, 2, 6, 3, 4, 5, 6 };*/
+            //Node myList2 = new Node();
+            
+            //int[] arr = { 7,7,7};
+            //int[] arr = { };
+          /*  for (int i = 0; i<arr.Length; i++)
+            {
+                //myList2.addLast(arr[i]);
+                //myList2(arr,6);
+                Node myList2 = new Node(arr[i]);
+                LinkedList3 myList3 = new LinkedList3();
+                myList3.printAllNodes();
+            }*/
+/*
+            myList2.printAllNodes();
+
+            //REMOVE
+            Console.WriteLine();
+            Console.WriteLine("After Remove :");
+            myList2.remove2(6);
+            myList2.printAllNodes();*/
+
+            //myList2.remove3(6);
+
+
+
 
 
 
